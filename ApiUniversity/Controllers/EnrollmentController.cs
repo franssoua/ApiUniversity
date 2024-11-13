@@ -20,7 +20,7 @@ public class EnrollmentController : ControllerBase
     [HttpGet]
     public async Task<ActionResult<IEnumerable<DetailEnrollmentDTO>>> GetEnrollments()
     {
-        // Get courses and related lists
+        // Get enrollments and related lists
         var enrollments = _context.Enrollments.Include(x => x.Student).Include(x => x.Course).Select(x => new DetailEnrollmentDTO(x));
         return await enrollments.ToListAsync();
     }

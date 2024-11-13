@@ -10,7 +10,12 @@ public class ApiUniversityContext : DbContext
 
     public DbSet<Enrollment> Enrollments { get; set; } = null!;
 
+    public DbSet<Department> Departments { get; set; } = null!;
+
+    public DbSet<Instructor> Instructors { get; set; } = null!;
+
     public string DbPath { get; private set; }
+
 
     public ApiUniversityContext()
     {

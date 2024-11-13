@@ -6,6 +6,8 @@ public class CourseDTO
     public int Id { get; set; }
     public string Title { get; set; } = null!;
     public int Credits { get; set; }
+    public DepartmentDTO Department { get; set; } = null!;
+    public List<InstructorDTO> Instructors { get; set; } = new();
 
     public CourseDTO() { }
 
@@ -14,5 +16,7 @@ public class CourseDTO
         Id = course.Id;
         Title = course.Title;
         Credits = course.Credits;
+        Department = new DepartmentDTO(course.Department);
+        Instructors = course.Instructors.Select(i => new InstructorDTO(i)).ToList();
     }
 }
