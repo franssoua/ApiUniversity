@@ -42,12 +42,14 @@ public class StudentController : ControllerBase
 
     // POST: api/todo
     [HttpPost]
-    public async Task<ActionResult<StudentDTO>> PostStudent(Student student)
+    public async Task<ActionResult<StudentDTO>> PostStudent(StudentDTO studentDTO)
     {
+        Student student = new(studentDTO);
+
         _context.Students.Add(student);
         await _context.SaveChangesAsync();
 
-        return CreatedAtAction(nameof(GetStudent), new { id = student.Id }, student);
+        return CreatedAtAction(nameof(GetStudent), new { id = student.Id }, new StudentDTO(student));
     }
 
     // PUT: api/todo/2

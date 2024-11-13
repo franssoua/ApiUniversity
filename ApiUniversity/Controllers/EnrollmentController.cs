@@ -33,6 +33,9 @@ public class EnrollmentController : ControllerBase
         _context.Enrollments.Add(enrollment);
         await _context.SaveChangesAsync();
 
+        enrollment.Student = await _context.Students.FirstAsync(i => i.Id == enrollmentDTO.StudentId);
+        enrollment.Course = await _context.Courses.FirstAsync(i => i.Id == enrollmentDTO.CourseId);
+
         return CreatedAtAction(nameof(GetEnrollments), new { id = enrollment.Id }, new DetailEnrollmentDTO(enrollment));
     }
 }

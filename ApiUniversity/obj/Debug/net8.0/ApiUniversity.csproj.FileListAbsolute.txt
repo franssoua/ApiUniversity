@@ -18,13 +18,7 @@ H:\2A\S7\Génie logiciel\TP6\ApiUniversity\ApiUniversity\bin\Debug\net8.0\Micros
 H:\2A\S7\Génie logiciel\TP6\ApiUniversity\ApiUniversity\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 H:\2A\S7\Génie logiciel\TP6\ApiUniversity\ApiUniversity\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 H:\2A\S7\Génie logiciel\TP6\ApiUniversity\ApiUniversity\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
-H:\2A\S7\Génie logiciel\TP6\ApiUniversity\ApiUniversity\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-H:\2A\S7\Génie logiciel\TP6\ApiUniversity\ApiUniversity\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-H:\2A\S7\Génie logiciel\TP6\ApiUniversity\ApiUniversity\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 H:\2A\S7\Génie logiciel\TP6\ApiUniversity\ApiUniversity\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-H:\2A\S7\Génie logiciel\TP6\ApiUniversity\ApiUniversity\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-H:\2A\S7\Génie logiciel\TP6\ApiUniversity\ApiUniversity\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-H:\2A\S7\Génie logiciel\TP6\ApiUniversity\ApiUniversity\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 H:\2A\S7\Génie logiciel\TP6\ApiUniversity\ApiUniversity\bin\Debug\net8.0\Microsoft.OpenApi.dll
 H:\2A\S7\Génie logiciel\TP6\ApiUniversity\ApiUniversity\bin\Debug\net8.0\Mono.TextTemplating.dll
 H:\2A\S7\Génie logiciel\TP6\ApiUniversity\ApiUniversity\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
